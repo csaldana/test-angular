@@ -1,0 +1,43 @@
+Link de documentacion
+
+https://angular.io/cli
+
+
+Stack tecnologico es un grupo de tecnologías que, usuadas de manera conjunta en un proyecto, nos permiten crear una aplicación completa.
+
+
+MEAN stack
+
+Mongo DB-Express-Angular-Node
+
+Angular CLI (Command line interface)
+
+instalar angular de forma global
+
+npm install -g @angular/cli
+
+para comprobar la version 
+
+ng --version
+
+crear un proyecto 
+
+ng new NombreProyecto
+
+iniciar el servidor local
+
+    ng serve
+
+la url es http://localhost:4200
+
+crear componentes
+
+ng generate component Saludo --skipTests
+ng g c components/header --skipTests
+
+se agrega --skipTests para omitir los archivos de pruebas.
+
+
+crear servicios
+
+    ng g s services/infoPagina --skip-tests
